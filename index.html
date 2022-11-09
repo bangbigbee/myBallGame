@@ -21,6 +21,7 @@
 
 <body>
     <canvas id="myCanvas" width="480" height="320"></canvas>
+    <p id="demo"></p>
     <script>
         const canvas = document.getElementById("myCanvas");
         const ctx = canvas.getContext("2d");
@@ -29,6 +30,7 @@
         ctx.fillStyle = "#FF0000";
         ctx.fill();
         ctx.closePath();
+        const bang = document.getElementById("demo").innerHTML = "This is a demo version";
     </script>
 </body>
 
